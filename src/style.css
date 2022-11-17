@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+i {
+    cursor: pointer;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 85px;
+    background-color: #212121;
+    align-items: center;
+    padding: 25px 60px;
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
+.cartIcon {
+    color: white;
+}
+
+.cart {
+    position: relative;
+    color: #212121;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.cartAmount {
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    color: white;
+    font-size: 16px;
+    background-color: red;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.nav-icon {
+    font-size: 22px;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contact {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 22px;
+    padding-right: 20px;
+}
+
+.logoL {
+    width: 250px!important;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #fff;
+    line-height: 0.9;
+}
+
+.logoStatic {
+    font-size: 2rem;
+    color: #fff;
+    line-height: 0.9;
+}
+
+/* products */
+
+.products{
+    padding: 6rem 0;
+}
+
+.products h2{
+    text-align: center;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--granite-gray);
+    margin-bottom: 3rem;
+}
+
+.product-price{
+    font-size: 1.15rem;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+.price-quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.cardButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 16px;
+}
+
+.fa-minus {
+    color: red;
+    margin-top: 4px;
+}
+
+.fa-plus {
+    color: green;
+    margin-top: 4px;
+}
+
+.price {
+    margin-bottom: 0;
+}
+
+.quantity {
+    font-family: 'Montserrat',sans-serif;
+    font-size: large;
+    font-weight: 500;
+}
+
+.text-center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.homeBtn {
+    background-color: #212121;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+.carta {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 350px;
+    margin: auto auto 25px auto;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+  
+.price {
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+}
+  
+.carta button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+  
+.carta button:hover {
+    opacity: 0.7;
+}
+
+.cardTitle {
+    margin-top: 8px;
+    font-size: 18px;
+}
